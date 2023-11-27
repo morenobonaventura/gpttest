@@ -14,8 +14,8 @@ class IsNoProfit():
         if description is None:
             return None
 
-        entity_tokens = ['we are a ', 'we are an independent ',
-                         f'{name} is ', f'{name} is a ', f'{name} is an independent ']
+        entity_tokens = ['we are a', 'we are an independent',
+                         f'{name} is', f'{name} is a', f'{name} is an independent']
         no_profit_tokens = [
             'not for profit',
             'not-for-profit',
